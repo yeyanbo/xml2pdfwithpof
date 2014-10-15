@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/avalon-framework-4.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/batik-all-1.7.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/fop.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/serializer-2.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/xalan-2.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/xercesImpl-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="lib" path="/Users/yeyanbo/Documents/github/xml2pdfwithpof/lib/xmlgraphics-commons-1.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
