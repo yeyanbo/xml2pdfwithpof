@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fop version="1.0">
+<!--如果在文档中使用了相对url,则以本文档的当前位置为基础搜索寻找-->
+  <base>.</base>
+<!--如果插入到文档中图片的话,要求源图片的分辨率-->
+  <source-resolution>72</source-resolution>
+  <!--如果插入到文档中图片的话,输出到文档中后,图片的分辨率-->
+  <target-resolution>72</target-resolution>
+  <!--默认页面高度和宽度-->
+  <default-page-settings height="11in" width="8.26in"/>
+  <!--渲染器-->
+   <renderers>
+   <!--用来生成pdf的渲染器-->
+    <renderer mime="application/pdf">
+      <filterList>
+      <!--使用glib flate进行压缩-->
+        <value>flate</value>
+        <!--对二进制数据,使用ascii码显示,默认关闭-->
+        <!-- <value>ascii-85</value> -->
+        <!--对二进制数据,使用十六进制显示,默认关闭,不推荐使用,会增加数据的体积-->
+        <!-- <value>ascii-hex</value> -->
+      </filterList>
+
+      <!--字体设置-->
+      <fonts>
+      <!--metrics-url:字体矩阵文件,根据ttc文件生成,kerning为是否允许字间矩调整-->
+          <font metrics-url="res/cnf/simsun.xml" kerning="yes" embed-url="res/cnf/simsun.ttf">
+          <!--字体三元组:名字,样式,重量-->
+             <font-triplet name="Simsun" style="normal" weight="normal" />
+             <font-triplet name="Simsun" style="normal" weight="bold" />
+             <font-triplet name="Simsun" style="italic" weight="normal" />
+             <font-triplet name="Simsun" style="italic" weight="bold" />
+          </font>
+          <font metrics-url="res/cnf/simhei.xml" kerning="yes" embed-url="res/cnf/simhei.ttf">
+          <!--字体三元组:名字,样式,重量-->
+             <font-triplet name="SimHei" style="normal" weight="normal" />
+             <font-triplet name="SimHei" style="normal" weight="bold" />
+             <font-triplet name="SimHei" style="italic" weight="normal" />
+             <font-triplet name="SimHei" style="italic" weight="bold" />
+          </font>
+      </fonts>
+    </renderer>
+    </renderers>
+</fop>

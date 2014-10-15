@@ -47,6 +47,10 @@ public class Xml2PdfTransformer {
             // configure fopFactory as desired
             FopFactory fopFactory = FopFactory.newInstance();
 
+            //Fonts
+            //fopFactory.getFontManager().
+            fopFactory.setUserConfig(new File("res/cnf/myconfig.xml"));
+            
             FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
             // configure foUserAgent as desired
 

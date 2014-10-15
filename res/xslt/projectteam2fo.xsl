@@ -31,9 +31,9 @@
       </fo:layout-master-set>
       <fo:page-sequence master-reference="simpleA4">
         <fo:flow flow-name="xsl-region-body">
-          <fo:block font-size="16pt" font-weight="bold" space-after="5mm">Project: <xsl:value-of select="projectname"/>
+          <fo:block font-family="Simsun" font-size="16pt" font-weight="bold" space-after="5mm">Project: <xsl:value-of select="projectname"/>
           </fo:block>
-          <fo:block font-size="12pt" space-after="5mm">Version <xsl:value-of select="$versionParam"/>
+          <fo:block font-family="Simsun" font-size="12pt" space-after="5mm">版本Version <xsl:value-of select="$versionParam"/>
           </fo:block>
           <fo:block font-size="10pt">
             <fo:table table-layout="fixed" width="100%" border-collapse="separate">
